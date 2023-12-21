@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #070101;
+    border-radius: 5px;
+    background-color: #c8d2d8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile-photo{
+    padding: 0px;
+    
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #444;
+    margin-right: 20px;
+    /* Add background-image property for the actual photo */
+}
+
+.header-content {
+    flex-grow: 1;
+}
+
+.name {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.title {
+    color: #3498db;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 10px;
+    size-adjust: 100opx;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #dce7ea;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+
+
+.education-table th,
+.education-table td {
+    border: 1px solid #0d0202;
+    padding: 10px;
+    text-align: left;
+}
+
+
